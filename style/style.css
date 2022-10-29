@@ -35,108 +35,163 @@
 }
 
 /* Common */
+* {
+  box-sizing: border-box;
+}
 
 
-/* Header */
-.btn {
+body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
   text-align: center;
-  color: #060D10
+  background-color: rgba(102, 209, 255, 1);
+  margin: 0;
 }
 
-.tel {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 34px;
+.conteiner {
+  width: 1440px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+/* promo */
+
+.promo {
   text-align: center;
-  color: #060D10;
+  color: #d0eced;
+  background-color: rgba(6,13,16,0.25);
+  background-image: url(../img/promo-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Promo */
 .promo-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald';
+  font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 89px;
+  display: flex;
+  align-items: center;
   text-align: center;
+  text-transform: uppercase;
   color: #FFFFFF;
+  text-shadow: 1px 1px 2px #060D10;
+
 }
 
 .promo-desc {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
+  font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 39px;
+  display: flex;
+  align-items: center;
   text-align: center;
-  color: #FFFFFF
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px #060D10;
 }
 
-/* About */
+/* about */
+
+.about {
+  background: #66D1FF;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+}
+
 .about-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald';
+  font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 167%;
   text-align: center;
+  text-transform: uppercase;
   color: #060D10;
 }
 
 .about-heading {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald';
+  font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 167%;
+  text-transform: uppercase;
   color: #060D10;
 }
 
 .about-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
+  font-style: normal;
   font-weight: 400;
   font-size: 26px;
   line-height: 140%;
-  color: #060D10
+  color: #060D10;
 }
 
-/* Afterwords */
+/* afterwords */
+
+.afterwords {
+  background: linear-gradient(208.35deg, #66D1FF 43.85%, rgba(196, 196, 196, 0) 43.86%);
+  mix-blend-mode: normal;
+  opacity: 0.1;
+}
+
 .afterwords-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald';
+  font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 167%;
   text-align: center;
+  text-transform: uppercase;
   color: #060D10;
 }
 
 .btn-afterwords {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
+  font-style: normal;
   font-weight: 500;
   font-size: 36px;
   line-height: 44px;
+  display: flex;
+  align-items: center;
   text-align: center;
   color: #060D10;
 }
 
+
 /* Footer */
+.footer {
+  background-color: #060D10;
+  color: #FFFFFF;
+}
 
 .footer-text {
-  font-family: 'Montserrat', sans-serif;
-  ;
-  font-size: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
   font-weight: 500;
+  font-size: 20px;
   line-height: 167%;
-  text-align: center color#FFFFFF;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 
 .footer-copy {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-family: 'Montserrat';
+  font-style: normal;
   font-weight: 500;
+  font-size: 18px;
   line-height: 22px;
+  display: flex;
+  align-items: center;
   text-align: right;
   color: #FFFFFF;
 }
