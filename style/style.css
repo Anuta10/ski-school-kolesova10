@@ -42,33 +42,68 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
   text-align: center;
-  background-color: rgba(102, 209, 255, 1);
   margin: 0;
+  color: #060D10;
 }
 
 .conteiner {
-  width: 1440px;
+  width: 1278px;
   margin: 0 auto;
-  border: 1px solid black;
 }
+
+/*header*/
+
+.header {
+  background-color: #66D1FF;
+  padding: 34px 0;
+  justify-content: center;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-btn {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 6px 34px;
+  min-width: 276px;
+}
+
+.tel {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  text-decoration: none;
+  color: #060D10;
+}
+
 
 /* promo */
 
 .promo {
   text-align: center;
-  color: #d0eced;
-  background-color: rgba(6,13,16,0.25);
+  color: #FFF;
+  text-shadow: 1px 1px 2px #060D10;
+  background-color: rgb(131, 166, 183);
   background-image: url(../img/promo-img.png);
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
-  background-position: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* Promo */
+
 .promo-title {
   font-family: 'Oswald';
   font-style: normal;
@@ -76,11 +111,10 @@ body {
   font-size: 60px;
   line-height: 89px;
   display: flex;
-  align-items: center;
-  text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
   text-shadow: 1px 1px 2px #060D10;
+  margin-bottom: 60px;
 
 }
 
@@ -90,9 +124,6 @@ body {
   font-weight: 500;
   font-size: 32px;
   line-height: 39px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: #FFFFFF;
   text-shadow: 1px 1px 2px #060D10;
 }
@@ -100,48 +131,44 @@ body {
 /* about */
 
 .about {
-  background: #66D1FF;
-  mix-blend-mode: normal;
-  opacity: 0.1;
+  background-color: rgba(102, 209, 255, 1);
+  padding: 170px 0 0 0;
+}
+
+.about-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .about-title {
-  font-family: 'Oswald';
-  font-style: normal;
+  font-family: 'Oswald', sans-serif;
   font-weight: 500;
+  color: #060d10;
   font-size: 48px;
   line-height: 167%;
-  text-align: center;
-  text-transform: uppercase;
-  color: #060D10;
+  margin-bottom: 100px;
 }
 
 .about-heading {
   font-family: 'Oswald';
   font-style: normal;
-  font-weight: 500;
   font-size: 32px;
   line-height: 167%;
-  text-transform: uppercase;
-  color: #060D10;
+  margin-bottom: 70px;
 }
 
 .about-text {
   font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 400;
   font-size: 26px;
   line-height: 140%;
-  color: #060D10;
+  opacity: 0.8;
 }
 
 /* afterwords */
 
-.afterwords {
-  background: linear-gradient(208.35deg, #66D1FF 43.85%, rgba(196, 196, 196, 0) 43.86%);
-  mix-blend-mode: normal;
-  opacity: 0.1;
-}
+.afterwords {}
 
 .afterwords-title {
   font-family: 'Oswald';
@@ -160,17 +187,32 @@ body {
   font-weight: 500;
   font-size: 36px;
   line-height: 44px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  border-radius: 4px;
+  background-color: rgba(196, 196, 196, 0);
+  padding: 17px, 105px, 19px;
   color: #060D10;
+  margin: 60px, 0, 130px;
 }
 
+.photo {
+  width: 297px;
+  height: 297px;
+  padding: 0 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
 
 /* Footer */
+
 .footer {
   background-color: #060D10;
   color: #FFFFFF;
+}
+
+.footer-wrap {
+  display: flex;
+  padding: 35px 0;
+  align-items: center;
 }
 
 .footer-text {
@@ -179,8 +221,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 167%;
-  text-align: center;
-  color: #FFFFFF;
+  margin-right: 50px;
 }
 
 
@@ -191,7 +232,6 @@ body {
   font-size: 18px;
   line-height: 22px;
   display: flex;
-  align-items: center;
   text-align: right;
-  color: #FFFFFF;
+  margin: 0 0 0 auto;
 }
